@@ -1,10 +1,7 @@
-import { setupDevPlatform } from '@cloudflare/next-on-pages/next-dev';
+const config = {
+  plugins: {
+    "@tailwindcss/postcss": {},
+  },
+};
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
-
- if (process.env.NODE_ENV === 'development') {
-   await setupDevPlatform();
- }
-
-export default nextConfig;
+export default config;
