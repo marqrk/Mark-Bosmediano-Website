@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Inter, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 
-import SideNav from "@/app/ui/dashboard/sidenav";
+import SideNav from "./ui/dashboard/sidenav";
+
 
 const sans = Inter({
     variable: "--font-geist-sans",
