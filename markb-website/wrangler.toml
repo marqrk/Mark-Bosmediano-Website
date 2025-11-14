@@ -1,7 +1,0 @@
-name = "mark-bosmediano-website"
-main = ".vercel/output/static/_worker.js"
-compatibility_date = "2024-04-03"
-
-[vars]
-# Example env var
-NODE_ENV = "production"
